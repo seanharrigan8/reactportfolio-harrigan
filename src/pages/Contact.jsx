@@ -1,14 +1,24 @@
 import React, {useState} from "react";
-// import './Contact.css';
+import './Contact.css';
 import ContactForm from '../../src/components/ContactForm';
 
+// import ContactForm from '../../src/components/ContactForm';
 
-const Contact = () => {
+
+
+
+function Contact() {
     return (
-        <div>
-     <h1> Contact Me </h1>
-        <ContactForm />
+        <div className="contact-page">
+            <h2>Contact Me</h2>
+            <ContactForm />
         </div>
     );
-    }
+}
+
+
+ 
+  
+        
+
 export default Contact;
