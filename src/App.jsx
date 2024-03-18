@@ -20,6 +20,7 @@ function App() {
       <Header />
       <div className="container">
         <Routes>
+        <Route path="/" element={<AboutMe />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
