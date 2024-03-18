@@ -7,6 +7,8 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
+import './App.css';
+
 
 
 
@@ -16,21 +18,18 @@ function App() {
 
     <div className="App">
       <Header />
+      <div className="container">
         <Routes>
         <Route path="/about" element={<AboutMe />} />
-        <Route path="/" element={<AboutMe />} />
-       
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
-
         </Routes>
-
-        
-
-    
+        {/* <AboutMe /> */}
+    </div>  
       <Footer />
     </div>
+    
     
   );
 }

@@ -12,13 +12,12 @@ const Header = () => {
             <h1>Sean Harrigan</h1>  
             <nav>
             <ul>
-<NavLink exact to="/about" className="active">About Me</NavLink>
-<NavLink to="/portfolio" className="active">Projects</NavLink>
+<NavLink to="/about" className="active">About Me</NavLink>
+<NavLink to="/portfolio" className="active">Portfolio</NavLink>
 <NavLink to="/contact" className="active">Contact</NavLink>
 <NavLink to="/resume" className="active">Resume</NavLink>
 </ul>
 </nav>
-
         </header>
     );
 };
