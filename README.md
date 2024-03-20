@@ -7,6 +7,9 @@
 
 This is a react-based portoflioi site that showcases a few key projects, handles contact information, and gives visitors a brief bio.
 
+#link to website hosted on netlify 
+https://harriganportfolio.netlify.app/about
+
 ## Table of Contents
 
 * [Installation](#installation)
