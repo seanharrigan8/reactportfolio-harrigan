@@ -26,8 +26,6 @@ After installing the dependencies, users will open a localhost3000 web browser t
 
 ## Video Walkthrough
 
-[Watch the video walkthrough here]()
-
 ## Contribution
 
 
